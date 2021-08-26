@@ -54,7 +54,7 @@ const DatalistPicker = ({ options }) => {
             name="form-picker-input"
             type="text"
             value={option.name}
-            autocomplete="off"
+            autoComplete="off"
             onChange={handleChange}
           />
           <datalist id="form-picker-list">
